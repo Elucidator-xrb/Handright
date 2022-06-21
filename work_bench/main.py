@@ -1,7 +1,7 @@
 from PIL import Image, ImageFont
 from handright import Template, handwrite
 
-with open("article/荷塘月色.txt", encoding='utf-8') as f:
+with open("article/正式论文.txt", encoding='utf-8') as f:
     text = f.read()
 
 background = Image.open('background/letter.png')
